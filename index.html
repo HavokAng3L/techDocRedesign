@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Document Redesign | Angel Morin |</title>
+</head>
+<body>
+    <h1 class="docTitle">Linked List</h1>
+    <h2 class="sub-heading">What is a linked list?</h2>
+    <div class="info-section">
+        <p>A linked list is a series of nodes connected together by their addresses in memory.</p>
+        <p>A node is a group of related information and consists of two parts</p>
+        <ul>
+            <li>The data (int, char, string, etc)</li>
+            <li>The address to another node</li>
+        </ul>
+    </div>
+    <h2 class="sub-heading">Why use a linked list?</h2>
+    <div class="info-section">
+        <p>In general, data structures are used for processing, retrieving and storing data in a much quicker way.</p>
+        <p>linked lists, specifically, are great for inserting and deleting data. 
+        The drawback however is to look-up a specific node, you must go through each node. From the beginnning.</p>
+    </div>
+    <h2 class="sub-heading">Code: Implementation</h2>
+    <div class="imp-code-render" id="imp-render">
+        <pre id="imp-display"></pre>
+    </div>
+    <button id="JS_imp_button">JavaScript</button>
+    <button id="Cpp_imp_button">C++</button>
+    <p>This code is how you can implement a bare-bones node: The building block of a linked list!</p>
+    <h2 class="sub-heading">Code: Instruction</h2>
+    <div class="inst-code-render" id="inst-render">
+        <pre id="inst-display"></pre>
+    </div>
+    <button id="JS_inst_button">JavaScript</button>
+    <button id="Cpp_inst_button">C++</button>
+    <p>This code details all the instructions we can perform to create a linked list, 
+        traverse the list, add to the list, and remove from the list. 
+        Even retrieve the data contained within each node.</p>
+    <script src="./scripts/index.js" type="module"></script>
+    <script src="./scripts/SourceCodes.js" type="module"></script>
+</body>
+</html>
