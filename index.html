@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Document Redesign | Angel Morin |</title>
+    <link href="./dist/styles.css" rel="stylesheet" />
+  </head>
+  <body class="bg-blue-900 font-sans mx-20">
+    <h1 class="text-4xl text-center my-2">Linked List</h1>
+    <h2 class="font-bold text-2xl py-2">What is a linked list?</h2>
+    <div class="border-2 border-white px-4 py-2">
+      <p>
+        A linked list is a series of nodes connected together by their addresses
+        in memory.
+      </p>
+      <p>A node is a group of related information and consists of two parts</p>
+      <ul>
+        <li>The data (int, char, string, etc)</li>
+        <li>The address to another node</li>
+      </ul>
+    </div>
+    <h2 class="font-bold text-2xl py-2">Why use a linked list?</h2>
+    <div class="border-2 border-white px-4 py-2">
+      <p>
+        In general, data structures are used for processing, retrieving and
+        storing data in a much quicker way.
+      </p>
+      <p>
+        Linked lists, specifically, are great for inserting and deleting data.
+        The drawback however is to look-up a specific node, you must go through
+        each node. From the start of the list.
+      </p>
+    </div>
+    <h2 class="font-bold text-2xl py-2">Code: Implementation</h2>
+    <div class="border-2 border-black px-4 py-2 bg-white" id="imp-render">
+      <pre id="imp-display"></pre>
+    </div>
+    <button
+      class="border border-white rounded p-2 bg-yellow-300"
+      id="JS_imp_button"
+    >
+      JavaScript
+    </button>
+    <button
+      class="border border-white rounded p-2 bg-blue-700"
+      id="Cpp_imp_button"
+    >
+      C++
+    </button>
+    <div class="border-2 border-white px-4 py-2">
+      <p>
+        This code is how you can implement a bare-bones node: The building block
+        of a linked list!
+      </p>
+    </div>
+    <h2 class="font-bold text-2xl py-2">Code: Instruction</h2>
+    <div class="border-2 border-black px-4 py-2 bg-white" id="inst-render">
+      <pre id="inst-display"></pre>
+    </div>
+    <button
+      class="border border-white rounded p-2 bg-yellow-300"
+      id="JS_inst_button"
+    >
+      JavaScript
+    </button>
+    <button
+      class="border border-white rounded p-2 bg-blue-700"
+      id="Cpp_inst_button"
+    >
+      C++
+    </button>
+    <div class="border-2 border-white px-4 py-2">
+      <p>
+        This code details all the instructions we can perform to create a linked
+        list, traverse the list, add to the list, and remove from the list. Even
+        retrieve the data contained within each node.
+      </p>
+    </div>
+    <script src="../src/scripts/index.js" type="module"></script>
+    <script src="../src/scripts/SourceCodes.js" type="module"></script>
+  </body>
+</html>
